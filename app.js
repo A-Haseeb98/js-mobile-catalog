@@ -226,7 +226,7 @@ function search() {
         card.setAttribute('class', 'card h-100')
     
         var img = new Image()
-        img.src = data[key][key1].url;
+        img.src = data[brand][model].url;
         img.setAttribute('class', 'card-img-top')
     
         var cardBody = document.createElement('div')
